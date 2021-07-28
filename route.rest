@@ -1,0 +1,27 @@
+GET http://localhost:3000/clients
+
+###
+
+GET http://localhost:3000/clients/61005a87871a221a6c51e4d8
+
+###
+
+POST http://localhost:3000/clients
+Content-Type: application/json
+
+{
+    "name": "Koketso",
+    "phone": "03423444544"
+}
+
+### 
+DELETE   http://localhost:3000/clients/61005a87871a221a6c51e4d8
+
+###
+
+PATCH http://localhost:3000/clients/61002b086ea6e22b64b555cb
+Content-Type: application/json
+
+{
+    "name": "Keitumetse"
+}
