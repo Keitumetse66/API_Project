@@ -6,7 +6,7 @@
   "scripts": {
     "devStart": "nodemon server.js"
   },
-  "author": "",
+  "author": "Keitumetse Molefe",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
